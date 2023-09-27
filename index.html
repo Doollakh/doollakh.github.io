@@ -1,1 +1,27 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plotly Figure</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+
+    <div id="plotly-div"></div>
+
+    <script>
+        // Load the figure from the JSON file
+        fetch('figure.json')
+            .then(response => response.json())
+            .then(figure => {
+                Plotly.newPlot('plotly-div', figure.data, figure.layout);
+            });
+    </script>
+
+</body>
+
+</html>
