@@ -3,35 +3,62 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plotly Figure</title>
+    <title>Interactive Plotly Figures</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Plotly.js -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
         #plotly-div {
-            width: 1000px;
-            height: 600px;
+            width: 80vw;  /* 80% of the viewport width */
+            height: 80vh;  /* 80% of the viewport height */
         }
     </style>
 </head>
 
 <body>
 
-    <div id="plotly-div"></div>
+<div class="container-fluid h-100">
+    <div class="row h-100">
+        <!-- Sidebar with buttons -->
+        <div class="col-3 bg-light h-100 d-flex flex-column align-items-center py-5">
+            <button class="btn btn-primary mb-3" onclick="loadFigure('weight.json')">Weight</button>
+            <button class="btn btn-primary mb-3" onclick="loadFigure('weight.json')">Figure 2</button>
+            <button class="btn btn-primary" onclick="loadFigure('weight.json')">Figure 3</button>
+        </div>
+        
+        <!-- Main content area for displaying figures -->
+        <div class="col-9">
+            <div id="plotly-div"></div>
+        </div>
+    </div>
+</div>
 
-    <script>
-        // Load the figure from the JSON file
-        fetch('weight.json')
+<script>
+    function loadFigure(dataFile) {
+        fetch(dataFile)
             .then(response => response.json())
             .then(figure => {
                 // Update layout width and height
-                figure.layout.width = 1000;  // in pixels
-                figure.layout.height = 600;  // in pixels
-                
+                figure.layout.width = document.getElementById('plotly-div').clientWidth;
+                figure.layout.height = document.getElementById('plotly-div').clientHeight;
                 Plotly.newPlot('plotly-div', figure.data, figure.layout);
+            })
+            .catch(error => {
+                console.error("Error fetching or plotting the data:", error);
             });
-    </script>
+    }
 
+    // Load the initial figure
+    loadFigure('weight.json');
+</script>
+
+<!-- Bootstrap JS and Popper.js (optional) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
