@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plotly Figure</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        #plotly-div {
+            width: 1000px;
+            height: 600px;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,6 +24,10 @@
         fetch('weight.json')
             .then(response => response.json())
             .then(figure => {
+                // Update layout width and height
+                figure.layout.width = 1000;  // in pixels
+                figure.layout.height = 600;  // in pixels
+                
                 Plotly.newPlot('plotly-div', figure.data, figure.layout);
             });
     </script>
