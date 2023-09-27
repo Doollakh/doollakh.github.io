@@ -15,7 +15,7 @@
 
     <script>
         // Load the figure from the JSON file
-        fetch('figure.json')
+        fetch('weight.json')
             .then(response => response.json())
             .then(figure => {
                 Plotly.newPlot('plotly-div', figure.data, figure.layout);
