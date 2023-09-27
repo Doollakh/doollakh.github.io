@@ -9,7 +9,7 @@
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
         #plotly-div {
-            width: 900px;
+            width: 600px;
             height: 300px;
         }
     </style>
@@ -25,7 +25,7 @@
             .then(response => response.json())
             .then(figure => {
                 // Update layout width and height
-                figure.layout.width = 900;  // in pixels
+                figure.layout.width = 600;  // in pixels
                 figure.layout.height = 300;  // in pixels
                 
                 Plotly.newPlot('plotly-div', figure.data, figure.layout);
