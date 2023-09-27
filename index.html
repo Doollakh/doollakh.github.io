@@ -5,49 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Plotly Figures</title>
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Plotly.js -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    
+
     <style>
+        /* Your CSS styles ... */
+
+        /* Extra styles based on your theme */
+
         body, html {
-            height: 100%;
-        }
-
-        .container-fluid {
-            height: 100%;
-        }
-
-        #plotly-div {
-            width: 100%;
-            height: 80vh;
-        }
-
-        .btn-custom {
-            width: 60%;
-            transition: background-color 0.3s, transform 0.3s;
-        }
-
-        .btn-custom:hover {
-            background-color: #007bff;
-            transform: scale(1.05);
+            background: var(--smoky-black);
+            font-family: var(--ff-poppins);
         }
 
         .sidebar {
-            box-shadow: 2px 0 5px rgba(0,0,0,0.3);
-            justify-content: center;  /* vertically center the content */
+            padding: 15px;
+            background: var(--eerie-black-2);
+            border-radius: 0 20px 20px 0;
+            box-shadow: var(--shadow-1);
         }
-        
+
+        .btn-custom {
+            margin-bottom: 10px;
+            padding: 10px 20px;
+            background: var(--bg-gradient-onyx);
+            border: none;
+            border-radius: 8px;
+            color: var(--white-1);
+            transition: var(--transition-2);
+            font-size: var(--fs-3);
+            font-weight: var(--fw-500);
+            text-align: center;
+        }
+
+        .btn-custom:hover {
+            background: var(--bg-gradient-jet);
+            transform: scale(1.05);
+            color: var(--orange-yellow-crayola);
+        }
+
+        #plotly-div {
+            border-radius: 20px;
+            background: var(--eerie-black-1);
+            box-shadow: var(--shadow-2);
+            padding: 20px;
+        }
+
         .loader {
-            display: none;
-            border: 5px solid #f3f3f3;
-            border-top: 5px solid #3498db;
+            margin-top: 50px;
+            border: 5px solid var(--eerie-black-1);
+            border-top: 5px solid var(--orange-yellow-crayola);
             border-radius: 50%;
-            width: 50px;
-            height: 50px;
             animation: spin 2s linear infinite;
         }
 
@@ -63,13 +75,15 @@
 <div class="container-fluid h-100">
     <div class="row h-100">
         <!-- Sidebar with buttons -->
-        <div class="col-3 bg-light h-100 d-flex flex-column align-items-center py-5 sidebar">
-            <button class="btn btn-primary mb-3 btn-custom" onclick="loadFigure('weight.json')">Weight = [0 - 1]</button>
-            <button class="btn btn-primary mb-3 btn-custom" onclick="loadFigure('w.json')">Weight = [0 - 0.1]</button>
-            <button class="btn btn-primary btn-custom" onclick="loadFigure('w.json')">Third Figure</button>
+        <div class="col-3 sidebar">
+            <button class="btn-custom" onclick="loadFigure('weight.json')">Weight = [0 - 1]</button>
+            <button class="btn-custom" onclick="loadFigure('w.json')">Weight = [0 - 0.1]</button>
+            <button class="btn-custom" onclick="loadPicture('path_to_picture1.jpg')">Load Picture 1</button>
+            <button class="btn-custom" onclick="loadPicture('path_to_picture2.jpg')">Load Picture 2</button>
+            <button class="btn-custom" onclick="loadFigure('w.json')">Third Figure</button>
             <div class="loader mt-5"></div>
         </div>
-        
+
         <!-- Main content area for displaying figures -->
         <div class="col-9 py-4 px-5">
             <div id="plotly-div"></div>
@@ -93,6 +107,18 @@
                 alert("Error loading the figure.");
                 document.querySelector('.loader').style.display = 'none';
             });
+    }
+
+    function loadPicture(imagePath) {
+        document.querySelector('.loader').style.display = 'block';
+
+        let img = new Image();
+        img.src = imagePath;
+        img.onload = function() {
+            document.getElementById('plotly-div').innerHTML = '';  // clear previous content
+            document.getElementById('plotly-div').appendChild(img);
+            document.querySelector('.loader').style.display = 'none';
+        }
     }
 
     // Load the initial figure
