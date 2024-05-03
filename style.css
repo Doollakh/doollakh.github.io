@@ -173,10 +173,10 @@ body {
   width: 95%;
   height: auto;
 }
-
 .button {
+    margin-top: 3rem; /* Adds margin at the top */
     padding: 0.75rem 1.5rem; /* Comfortable padding for button */
-    font-size: 0.95rem; /* Font size matches the links */
+    font-size: 1.1rem; /* Increased font size for better visibility */
     background-color: transparent; /* Initial background color is transparent */
     color: white; /* Text color is white */
     border: 1px solid white; /* White border to match the links */
@@ -192,3 +192,4 @@ body {
     background-color: white; /* White background on hover */
     color: #193541; /* Dark color for text on hover to match the links */
 }
+
