@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📢 **`Online Presentation`** on **NeRF & Gaussian Splatting** at Dr. Nasihatkon's lab - **Oct 14**. Slides & video soon! Ping me to join! 🙋‍♂️
+📢 **`Online Presentation`** on **NeRF & Gaussian Splatting** at Dr. Nasihatkon's lab - **Oct 14**. Slides & video soon! Ping me to join! 🔜
