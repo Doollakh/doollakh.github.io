@@ -45,4 +45,3 @@ There’s a big difference between knowing something and teaching it!
 - 😍 **Teaching**: Teaching is a big part of my life, and it’s honestly one of the most rewarding experiences.
 
 - 💡 **Solving Problems**: I get excited by the challenge of tackling tricky problems, whether it's in research or real-world applications. It’s all about finding that "lightbulb" moment!
-"""
