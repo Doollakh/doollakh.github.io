@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 ✨ I’m a dedicated deep learning researcher and online instructor who enjoys exploring new ideas and tackling interesting challenges. 
 
-👨🏻‍🏫 Presentation and teaching are significant parts of my life, as they allow me to connect with others, share knowledge, and deepen my own understanding. 
+🎈 Presentation and teaching are significant parts of my life, as they allow me to connect with others, share knowledge, and deepen my own understanding. 
 There’s a big difference between knowing something and teaching it! 
 
 🔍 On the research side, I love diving into a variety of fascinating papers, even those outside my primary focus, as it keeps my curiosity alive and fuels my passion for both teaching and research. 
@@ -31,18 +31,18 @@ There’s a big difference between knowing something and teaching it!
 
 ### Research Interests:
 
-- 🔍 **Computer Vision** (Detection, Segmentation)
+- 👁‍🗨 **Computer Vision** (Detection, Segmentation)
 - 🤖 **Meta Learning** (Continual learning, Few-shot learning, Knowledge transfer)
 - 🏞️ **3D Vision** (NeRF, 3D/4D Gaussian Splatting)
-- 🧠 **Self-supervised Learning** (Contrastive learning)
+- 💥 **Self-supervised Learning** (Contrastive learning)
 - 📚 **Vision Language Models** (Text-Image Alignment)
 - 🏥 **Medical Imaging**
 
-### Life Interests
+### Life Interests:
 
 - 🎤 **Presentation**: I love sharing ideas and making complex topics easier to understand. Whether I'm in a classroom or online, creating engaging presentations is something I really enjoy.
 
-- 👨🏻‍🏫 **Teaching**: Teaching is a big part of my life, and it’s honestly one of the most rewarding experiences.
+- 😍 **Teaching**: Teaching is a big part of my life, and it’s honestly one of the most rewarding experiences.
 
 - 💡 **Solving Problems**: I get excited by the challenge of tackling tricky problems, whether it's in research or real-world applications. It’s all about finding that "lightbulb" moment!
 """
