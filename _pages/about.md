@@ -52,7 +52,10 @@ There’s a big difference between knowing something and teaching it!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+              <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true"                         pagination-dynamic-bullets="true" rewind="true">
+        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/9.jpg" class="img-fluid rounded z-                      depth-1" %}</swiper-slide>
+        <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/12.jpg" class="img-fluid rounded z-                      depth-1" %}</swiper-slide>
+      </swiper-container>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
