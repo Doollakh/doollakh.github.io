@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Big news! 🎉 My paper got accepted to WACV 2025! 🚀  [[arxiv](https://www.arxiv.org/pdf/2409.08388)]
+Big news! 🎉 My paper got accepted to **WACV 2025**! 🚀  [[arxiv](https://www.arxiv.org/pdf/2409.08388)]
