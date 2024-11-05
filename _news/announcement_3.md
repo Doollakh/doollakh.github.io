@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📢 **`Online Presentation`** on **Introduction to NeRF** (in persian) - [video](http://meet2.kntu.ac.ir/playback/video/dc2e365bf83728961071497a09ad2a58f8b4eef6-1729147751964/)
+📢 **`Online Presentation`** on **Introduction to NeRF** (in persian) - [[video](http://meet2.kntu.ac.ir/playback/video/dc2e365bf83728961071497a09ad2a58f8b4eef6-1729147751964/)]
