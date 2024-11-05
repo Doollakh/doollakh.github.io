@@ -60,4 +60,8 @@ There’s a big difference between knowing something and teaching it!
       <div class="col-sm mt-3 mt-md-0">
           this is only for test. 
     </div>
+
+      <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/11.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
 </div>
