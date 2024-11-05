@@ -4,6 +4,9 @@ title: about
 permalink: /
 subtitle: Hey! My webpage is being updated. Sorry for any glitches.
 
+images:
+  compare: true
+  slider: true
 
 profile:
   align: false
