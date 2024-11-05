@@ -56,4 +56,8 @@ There’s a big difference between knowing something and teaching it!
         <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
       </swiper-container>
     </div>
+
+      <div class="col-sm mt-3 mt-md-0">
+          this is only for test. 
+    </div>
 </div>
