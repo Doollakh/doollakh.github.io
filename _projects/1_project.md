@@ -6,6 +6,9 @@ img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
+images:
+  compare: true
+  slider: true
 ---
 
 This is an example post with advanced image components.
