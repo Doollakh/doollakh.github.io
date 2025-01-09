@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📢 **`Online Presentation`** on **Seeing Through Your Eyes: Egocentric Video Understanding** (in Persian) - [[Slides](https://drive.google.com/file/d/1QXwKQcZYtdmmMvBHS10YORsCGUjh54jE/view?usp=sharing)]
+📢 **`Online Presentation`** on **Egocentric Video Understanding** - [[Slides](https://drive.google.com/file/d/1QXwKQcZYtdmmMvBHS10YORsCGUjh54jE/view?usp=sharing)]
