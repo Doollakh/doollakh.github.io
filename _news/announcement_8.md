@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📢 **`Online Presentation`** on **Egocentric Video Understanding** - [[Slides](https://drive.google.com/file/d/1QXwKQcZYtdmmMvBHS10YORsCGUjh54jE/view?usp=sharing)]
+📢 **`Online Presentation`** on **Egocentric Video Understanding** - [[Slides](https://drive.google.com/file/d/1BMsMIONBzbddSg6C21yVtcUjTNtCXfAY/view?usp=sharing)]
