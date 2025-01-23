@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📢 **`Online Presentation`** **Self-supervised Learning (1)** - Jan 26 [[join here](meet.google.com/xae-vjdc-cfi)]
+📢 **`Online Presentation`** **Self-supervised Learning (1)** - Jan 26 17:00 IRST [[join here](meet.google.com/xae-vjdc-cfi)]
