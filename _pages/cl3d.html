@@ -30,10 +30,9 @@ horizontal: false
       <h1>CL3D</h1>
       <h3>Employing Spectral Techniques for Exemplar Selection</h3>
       <div style="margin-bottom: 10px;">
-        <span style="margin-right: 10px; font-size: 1.2em;"><a href="/">Christian Reiser</a></span>
-        <span style="font-size: 1.2em; margin-right: 10px"><a href="https://pengsongyou.github.io/">Songyou Peng</a></span> <span
-          style="font-size: 1.2em; margin-right: 10px"><a href="https://yiyiliao.github.io/">Yiyi Liao</a></span> <span
-          style="font-size: 1.2em; margin-right: 10px"><a href="http://cvlibs.net/">Andreas Geiger</a></span>
+        <span style="margin-right: 10px; font-size: 1.2em;"><a href="/">Hossein Resani</a></span>
+        <span style="font-size: 1.2em; margin-right: 10px"><a href="https://wp.kntu.ac.ir/nasihatkon/">Behrooz Nasihatkon</a></span> <span
+          style="font-size: 1.2em; margin-right: 10px"><a href="https://scholar.google.com/citations?user=wdGdBt0AAAAJ&hl=en">Mohammadreza Alimoradi</a></span> 
       </div>
       <div>
         <span style="margin-right: 10px; font-size: 1.2em;">K. N. Toosi University of Technology</span>
@@ -46,22 +45,20 @@ horizontal: false
       <img id="teaser" src="{{ '/assets/img/kilonerf/teaser_2x2.jpg' | relative_url }}" alt="Responsive image">
     </div>
     <div class="text-center" style="font-size: 1.5em; margin-bottom: 30px;">
-      <a href="http://www.cvlibs.net/publications/Reiser2021ICCV.pdf" target="_blank" style="margin-right: 20px;">[Paper]</a>
-      <a href="http://www.cvlibs.net/publications/Reiser2021ICCV_supplementary.pdf" target="_blank" style="margin-right: 20px;">[Supplementary]</a>
-      <a href="https://github.com/creiser/kilonerf" target="_blank" style="margin-right: 20px;">[Code]</a>
-      <a href="http://autonomousvision.github.io/kilonerf" target="_blank" style="margin-right: 20px;">[Blog]</a>
-      <a href="https://www.youtube.com/watch?v=PNh0LvMpovU&vq=hd1080&autoplay=1" target="_blank" style="margin-right: 20px;">[ICCV Video]</a>
-      <a href="https://www.youtube.com/watch?v=qvsMMDonF28&vq=hd1080&autoplay=1" target="_blank" style="margin-right: 20px;">[Supplementary Video]</a>
+      <a href="https://arxiv.org/abs/2409.08388" target="_blank" style="margin-right: 20px;">[Paper]</a>
+      <a href="#" target="_blank" style="margin-right: 20px;">[Code (Coming soon)]</a>
+      <a href="#" target="_blank" style="margin-right: 20px;">[Slides (Coming soon)]</a>
+      <a href="https://youtu.be/Z5VYrNKTUe4" target="_blank" style="margin-right: 20px;">[WACV Video]</a>
     </div>
     <div>
       <h2 class="text-center">
         Abstract
       </h2>
       <p style="font-style: italic;">
-        NeRF synthesizes novel views of a scene with unprecedented quality by fitting a neural radiance field to RGB images. However, NeRF requires querying a deep Multi-Layer Perceptron (MLP) millions of times, leading to slow rendering times, even on modern GPUs. In this paper, we demonstrate that real-time rendering is possible by utilizing thousands of tiny MLPs instead of one single large MLP. In our setting, each individual MLP only needs to represent parts of the scene, thus smaller and faster-to-evaluate MLPs can be used. By combining this divide-and-conquer strategy with further optimizations, rendering is accelerated by three orders of magnitude compared to the original NeRF model without incurring high storage costs. Further, using teacher-student distillation for training, we show that this speed-up can be achieved without sacrificing visual quality.
+        We introduce a novel framework for Continual Learning in 3D object classification. Our approach, CL3D, is based on the selection of prototypes from each class using spectral clustering. For non-Euclidean data such as point clouds, spectral clustering can be employed as long as one can define a distance measure between pairs of samples. Choosing the appropriate distance measure enables us to leverage 3D geometric characteristics to identify representative prototypes for each class. We explore the effectiveness of clustering in the input space (3D points), local feature space (1024-dimensional points), and global feature space. We conduct experiments on the ModelNet40, ShapeNet, and ScanNet datasets, achieving state-of-the-art accuracy exclusively through the use of input space features. By leveraging the combined input, local, and global features, we have improved the state-of-the-art on ModelNet and ShapeNet, utilizing nearly half the memory used by competing approaches. For the challenging ScanNet dataset, our method enhances accuracy by 4.1% while consuming just 28% of the memory used by our competitors, demonstrating the scalability of our approach.
       </p>
       <p>
-        <span style="font-weight: bold;">TL;DR:</span> Real-time rendering of NeRF by representing the scene as many independent MLPs arranged on a voxel grid.
+        <span style="font-weight: bold;">TL;DR:</span> CL3D is a Continual Learning framework for 3D object classification that uses spectral clustering across input, local, and global feature spaces to select exemplars. 🚀
       </p>
     </div>
     <div style="margin-top:10px;">
@@ -118,11 +115,11 @@ horizontal: false
         If you want to cite our work, please use:
       </p>
       <pre>
-        @INPROCEEDINGS{Reiser2021ICCV,
-          author = {Christian Reiser and Songyou Peng and Yiyi Liao and Andreas Geiger},
-          title = {KiloNeRF: Speeding up Neural Radiance Fields with Thousands of Tiny MLPs},
-          booktitle = {International Conference on Computer Vision (ICCV)},
-          year = {2021}
+        @INPROCEEDINGS{Resani2025WACV,
+          author = {Hossein Resani and Behrooz Nasihatkon and Mohammadreza Alimoradi},
+          title = {Continual Learning in 3D Point Clouds: Employing Spectral Techniques for Exemplar Selection},
+          booktitle = {IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+          year = {2025}
         }
       </pre>
     </div>
