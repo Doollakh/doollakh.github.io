@@ -51,14 +51,14 @@ horizontal: false
       <a href="https://youtu.be/Z5VYrNKTUe4" target="_blank" style="margin-right: 20px;">[WACV Video]</a>
     </div>
     <div>
+      <p>
+        <span style="font-weight: bold;">TL;DR:</span> CL3D is a Continual Learning framework for 3D object classification that uses spectral clustering across input, local, and global feature spaces to select exemplars. 🚀
+      </p>
       <h2 class="text-center">
         Abstract
       </h2>
       <p style="font-style: italic;">
         We introduce a novel framework for Continual Learning in 3D object classification. Our approach, CL3D, is based on the selection of prototypes from each class using spectral clustering. For non-Euclidean data such as point clouds, spectral clustering can be employed as long as one can define a distance measure between pairs of samples. Choosing the appropriate distance measure enables us to leverage 3D geometric characteristics to identify representative prototypes for each class. We explore the effectiveness of clustering in the input space (3D points), local feature space (1024-dimensional points), and global feature space. We conduct experiments on the ModelNet40, ShapeNet, and ScanNet datasets, achieving state-of-the-art accuracy exclusively through the use of input space features. By leveraging the combined input, local, and global features, we have improved the state-of-the-art on ModelNet and ShapeNet, utilizing nearly half the memory used by competing approaches. For the challenging ScanNet dataset, our method enhances accuracy by 4.1% while consuming just 28% of the memory used by our competitors, demonstrating the scalability of our approach.
-      </p>
-      <p>
-        <span style="font-weight: bold;">TL;DR:</span> CL3D is a Continual Learning framework for 3D object classification that uses spectral clustering across input, local, and global feature spaces to select exemplars. 🚀
       </p>
     </div>
     <div style="margin-top:10px;">
