@@ -21,24 +21,19 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-✨ I’m a deep learning researcher and online instructor.
+✨ I’m a PhD student, a deep learning researcher and online instructor.
 
-🎈 Teaching bridges knowing and understanding—I love sharing knowledge and learning through it.
-
-🔍 I enjoy diving into diverse research to fuel curiosity and inspire both teaching and research.
-
-🤖 Currently, my main interests lie in 3D vision, Meta-learning and Video Understanding which I believe are crucial steps toward achieving Artificial General Intelligence (AGI). 
+🤖 My current research interests centre on large language models and vision language models, focusing on understanding how LLMs infer cause-and-effect, apply commonsense logic in everyday scenarios, and make decisions that remain consistent under distribution shifts. I see strengthening these causal reasoning capabilities as a key step toward more robust, general-purpose intelligence.
 
 
 ### Research Interests:
 
-- 👁‍🗨 **Computer Vision** (Detection, Segmentation)
-- 🤖 **Meta Learning** (Continual learning, Few-shot learning, Knowledge transfer)
-- 🏞️ **3D Vision** (NeRF, 3D/4D Gaussian Splatting)
-- 🎥 **Video Understanding** (Egocentric videos)
-- 💥 **Self-supervised Learning** (Contrastive learning)
-- 📚 **Vision Language Models** (Text-Image Alignment)
-- 🏥 **Medical Imaging**
+- 👁‍🗨 **Large Language Models** 
+- 📚 **Vision Language Models**
+- 🏞️ **Low-rank Adaptation**
+- 🤖 **Meta Learning**
+- 💥 **Causal Inference**
+
 
 ### Life Interests:
 
