@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
 ---
 ✨ I’m a PhD student, a deep learning researcher and online instructor.
 
-🤖 My current research interests centre on large language models and vision language models, focusing on understanding how LLMs infer cause-and-effect, apply commonsense logic in everyday scenarios, and make decisions that remain consistent under distribution shifts. I see strengthening these causal reasoning capabilities as a key step toward more robust, general-purpose intelligence.
+🤖 My current research interests centre on large language models and vision language models, focusing on understanding how LLMs infer cause-and-effect, apply commonsense logic in everyday scenarios, and make decisions that remain consistent under distribution shifts.
 
 
 ### Research Interests:
