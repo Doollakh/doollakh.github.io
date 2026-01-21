@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 I’ve started my PhD at AIML, Monash University, under the supervision of Dr. Javen Shi and Dr. Ehsan Abbasnejad.
+🎉 I’ve started my PhD at AIML and Monash University, under the supervision of Dr. Javen Shi and Dr. Ehsan Abbasnejad.
