@@ -21,7 +21,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-✨ I’m a PhD student, a deep learning researcher and online instructor.
+✨ I’m a AI researcher and online instructor.
 
 🤖 My current research interests centre on large language models and vision language models, focusing on understanding how LLMs infer cause-and-effect, apply commonsense logic in everyday scenarios, and make decisions that remain consistent under distribution shifts.
 
