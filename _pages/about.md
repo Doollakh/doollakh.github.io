@@ -11,7 +11,7 @@ images:
 profile:
   align: false
   image: avatar4.jpg
-  image_circular: True # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Quote of the month: </p>
     <p>You never fail until you stop trying.</p>
