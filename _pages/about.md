@@ -10,7 +10,7 @@ images:
 
 profile:
   align: false
-  image: avatar2.jpg
+  image: avatar4.HEIC
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Quote of the month: </p>
