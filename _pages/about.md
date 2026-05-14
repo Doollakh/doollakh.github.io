@@ -10,11 +10,11 @@ images:
 
 profile:
   align: false
-  image: avatar5.jpg
-  image_circular: false # crops the image to make it circular
+  image: avatar4.jpg
+  image_circular: True # crops the image to make it circular
   more_info: >
     <p>Quote of the month: </p>
-    <p>You never fail untill you stop trying.</p>
+    <p>You never fail until you stop trying.</p>
     <p>Albert Einstein</p>
 
 news: true # includes a list of news items
@@ -23,16 +23,16 @@ social: true # includes social icons at the bottom of the page
 ---
 ✨ I’m a AI researcher and online instructor.
 
-🤖 My current research interests centre on large language models and vision language models, focusing on understanding how LLMs infer cause-and-effect, apply commonsense logic in everyday scenarios, and make decisions that remain consistent under distribution shifts.
+🤖 My current research interests are mainly around large language models and vision-language models, especially how LLMs reason about cause-and-effect relationships, how we can compress them efficiently, and how to make their decisions more robust and reliable.
 
 
 ### Research Interests:
 
 - 👁‍🗨 **Large Language Models** 
 - 📚 **Vision Language Models**
-- 🏞️ **Low-rank Adaptation**
-- 🤖 **Meta Learning**
-- 💥 **Causal Inference**
+- 🏞️ **(Visual) Reasoning**
+- 🤖 **Causality/XAI**
+- 💥 **Robustness**
 
 
 ### Life Interests:
