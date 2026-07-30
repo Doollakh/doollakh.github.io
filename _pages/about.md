@@ -35,6 +35,16 @@ social: true # includes social icons at the bottom of the page
 - 💥 **Robustness**
 
 
+<div class="my-4">
+  <img
+    src="{{ '/assets/img/teaching-collage.webp' | relative_url }}"
+    alt="Collage of online teaching sessions with more than 150 students and 1,000 sessions delivered"
+    class="img-fluid rounded z-depth-1"
+    loading="lazy"
+    style="width: 100%; height: auto;"
+  >
+</div>
+
 ### Life Interests:
 
 - 🎤 **Presentation**: I love sharing ideas and making complex topics easier to understand. Whether I'm in a classroom or online, creating engaging presentations is something I really enjoy.
