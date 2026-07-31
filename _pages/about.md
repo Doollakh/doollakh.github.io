@@ -11,10 +11,7 @@ profile:
   align: false
   image: avatar4.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Quote of the month: </p>
-    <p>You never fail until you stop trying.</p>
-    <p>Albert Einstein</p>
+  
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
