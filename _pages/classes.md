@@ -65,7 +65,7 @@ description: 🎓 Welcome to my class hub
     </div>
   </div>
 
-<div class="row align-items-center mt-3">
+<div class="mt-4"> </div>
 
   <!-- Machine Learning -->
   <div class="col">
