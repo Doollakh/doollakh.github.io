@@ -12,7 +12,7 @@ profile:
   image: avatar4.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Quote of the month: You never fail until you stop trying. Albert Einstein</p>
+    <p>You never fail until you stop trying. (Einstein)</p>
   
 
 news: true # includes a list of news items
@@ -33,6 +33,9 @@ social: true # includes social icons at the bottom of the page
 - 💥 **XAI**
 
   
+<div class="row align-items-center my-5">
+<div class="row align-items-center my-5">
+<div class="row align-items-center my-5">
 <div class="row align-items-center my-5">
 
   <!-- Left side -->
