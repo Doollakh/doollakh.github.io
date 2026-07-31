@@ -23,6 +23,8 @@ social: true # includes social icons at the bottom of the page
 
 🤖 My current research interests are mainly around large language models and vision-language models, especially how LLMs reason about cause-and-effect relationships, how we can compress them efficiently, and how to make their decisions more robust and reliable.
 
+👨🏻‍🏫 Teaching is a significant part of my life, as they allow me to connect with others, share knowledge, and deepen my own understanding. You know, There’s a big difference between knowing something and teaching it!
+
 
 ### Research Interests:
 
@@ -30,11 +32,9 @@ social: true # includes social icons at the bottom of the page
 - 📚 **World Models**
 - 🤖 **Causal AI**
 - 🏞️ **(Visual) Reasoning**
+- 🧠 **Meta Learning** 
 - 💥 **XAI**
-
-  
-<div class="mt-4"> </div>
-<div class="mt-4"> </div>
+- 🏞️ **3D Vision** (NeRF, Gaussian Splatting)
 
   <!-- Left side -->
   <div class="col-lg-7 col-md-7 mb-4 mb-md-0">
