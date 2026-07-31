@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 **`Life update!` ** I’ve started my PhD at the Australian Institute for Machine Learning (AIML) under the supervision of Prof. Javen Shi. Excited for this new chapter! 🚀
+👨‍💻 `Life update!` I’ve started my PhD at the Australian Institute for Machine Learning (AIML) under the supervision of Prof. Javen Shi. Excited for this new chapter! 🚀
