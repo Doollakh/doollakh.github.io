@@ -37,7 +37,7 @@ social: true # includes social icons at the bottom of the page
 - 🏞️ **3D Vision** (NeRF, Gaussian Splatting)
 
 
-<div class="row align-items-center mt-5">   
+<div class="row align-items-center mt-5">  </div> 
   
   <!-- Left side -->
   <div class="col-lg-7 col-md-7 mb-4 mb-md-0">
