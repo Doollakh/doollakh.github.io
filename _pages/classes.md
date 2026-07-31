@@ -38,7 +38,7 @@ description: 🎓 Welcome to my class hub
           href="{{ '/classes/python-fundamentals/' | relative_url }}"
           class="btn btn-primary mt-auto align-self-start"
         >
-          View syllabus
+          View syllabus and materials
         </a>
       </div>
     </div>
@@ -59,7 +59,7 @@ description: 🎓 Welcome to my class hub
           href="{{ '/classes/python-intermediate/' | relative_url }}"
           class="btn btn-primary mt-auto align-self-start"
         >
-          View syllabus
+          View syllabus and materials
         </a>
       </div>
     </div>
@@ -81,7 +81,7 @@ description: 🎓 Welcome to my class hub
           href="{{ '/classes/machine-learning/' | relative_url }}"
           class="btn btn-primary mt-auto align-self-start"
         >
-          View syllabus
+          View syllabus and materials
         </a>
       </div>
     </div>
@@ -102,7 +102,7 @@ description: 🎓 Welcome to my class hub
           href="{{ '/classes/deep-learning/' | relative_url }}"
           class="btn btn-primary mt-auto align-self-start"
         >
-          View syllabus
+          View syllabus and materials
         </a>
       </div>
     </div>
