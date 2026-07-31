@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /fund/
-title: Python(Fund)
-description: fundamentals of python programming.
+title: Python Fundamentals
+permalink: /classes/python-fundamentals/
+description: An introductory course in Python programming.
 nav: false
 ---
 
