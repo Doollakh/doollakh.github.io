@@ -4,7 +4,7 @@ title: My Classes
 permalink: /classes/
 nav: true
 nav_order: 8
-description: Explore my programming, machine learning, and deep learning courses.
+description: 🎓 Welcome to my class hub: a collection of practical, step-by-step courses designed to build strong foundations in 🐍 Python, 🤖 machine learning, and 🧠 deep learning through clear explanations and real-world examples.
 ---
 
 <div class="text-center mb-5">
@@ -64,6 +64,8 @@ description: Explore my programming, machine learning, and deep learning courses
       </div>
     </div>
   </div>
+
+<div class="row align-items-center mt-3">
 
   <!-- Machine Learning -->
   <div class="col">
