@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 ---
 ✨ Hi, I’m an AI researcher and online instructor.
 
-🤖 My current research interests are mainly around large language models and world models, especially how LLMs/world models reason about cause-and-effect relationships, how we can compress them efficiently, and how to make their decisions more robust and reliable.
+🤖 My current research interests mainly focus on large language models and world models, especially how LLMs/world models reason about cause-and-effect relationships, how we can compress them efficiently, and how to make their decisions more robust and reliable.
 
 👨🏻‍🏫 Teaching is a significant part of my life, as it allows me to connect with others, share knowledge, and deepen my own understanding. You know, There’s a big difference between knowing something and teaching it!
 
@@ -37,7 +37,7 @@ social: true # includes social icons at the bottom of the page
 - 🏞️ **3D Vision** (NeRF, Gaussian Splatting)
 
 
-<div class="row align-items-center mt-5">  </div> 
+<div class="row align-items-center mt-5"> 
   
   <!-- Left side -->
   <div class="col-lg-7 col-md-7 mb-4 mb-md-0">
