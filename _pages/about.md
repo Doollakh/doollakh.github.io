@@ -29,6 +29,11 @@ social: true # includes social icons at the bottom of the page
 - 🤖 **Causal AI**
 - 🏞️ **(Visual) Reasoning**
 - 💥 **XAI**
+- 👁‍🗨 **Large Language Models** 
+- 📚 **World Models**
+- 🤖 **Causal AI**
+- 🏞️ **(Visual) Reasoning**
+- 💥 **XAI**
 
 
 <div class="row align-items-center my-4">
