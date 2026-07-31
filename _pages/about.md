@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hey! My webpage is being updated. Sorry for any glitches.
 
 images:
   compare: true
@@ -21,7 +20,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-✨ I’m a AI researcher and online instructor.
+✨ Hi, I’m an AI researcher and online instructor.
 
 🤖 My current research interests are mainly around large language models and vision-language models, especially how LLMs reason about cause-and-effect relationships, how we can compress them efficiently, and how to make their decisions more robust and reliable.
 
@@ -29,21 +28,16 @@ social: true # includes social icons at the bottom of the page
 ### Research Interests:
 
 - 👁‍🗨 **Large Language Models** 
-- 📚 **Vision Language Models**
+- 📚 **World Models**
+- 🤖 **Causal AI**
 - 🏞️ **(Visual) Reasoning**
-- 🤖 **Causality/XAI**
-- 💥 **Robustness**
+- 💥 **XAI**
 
 
-<div class="my-4">
-  <img
-    src="{{ '/assets/img/teaching-collage.webp' | relative_url }}"
-    alt="Collage of online teaching sessions with more than 150 students and 1,000 sessions delivered"
-    class="img-fluid rounded z-depth-1"
-    loading="lazy"
-    style="width: 20%; height: auto;"
-  >
-</div>
+<div class="row align-items-center my-4">
+
+  <!-- Left side: Life Interests -->
+  <div class="col-lg-7 col-md-7 mb-4 mb-md-0" markdown="1">
 
 ### Life Interests:
 
@@ -53,4 +47,17 @@ social: true # includes social icons at the bottom of the page
 
 - 💡 **Solving Problems**: I get excited by the challenge of tackling tricky problems, whether it's in research or real-world applications. It’s all about finding that "lightbulb" moment!
 
+  </div>
 
+  <!-- Right side: Image -->
+  <div class="col-lg-5 col-md-5 text-center">
+    <img
+      src="{{ '/assets/img/teaching-collage.webp' | relative_url }}"
+      alt="Collage of online teaching sessions with more than 150 students and 1,000 sessions delivered"
+      class="img-fluid rounded z-depth-1"
+      loading="lazy"
+      style="width: 100%; height: auto;"
+    >
+  </div>
+
+</div>
