@@ -8,7 +8,7 @@ images:
   slider: true
 
 profile:
-  align: false
+  align: true
   image: avatar4.jpg
   image_circular: false # crops the image to make it circular
   
