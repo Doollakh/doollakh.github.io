@@ -65,7 +65,7 @@ description: 🎓 Welcome to my class hub
     </div>
   </div>
 
-<div class="mt-4"> </div>
+<div class="mt-3"> </div>
 
   <!-- Machine Learning -->
   <div class="col">
@@ -87,6 +87,8 @@ description: 🎓 Welcome to my class hub
       </div>
     </div>
   </div>
+
+<div class="mt-3"> </div>
 
   <!-- Deep Learning -->
   <div class="col">
