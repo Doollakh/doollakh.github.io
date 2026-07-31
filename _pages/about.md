@@ -33,10 +33,8 @@ social: true # includes social icons at the bottom of the page
 - 💥 **XAI**
 
   
-<div class="row align-items-center my-5">
-<div class="row align-items-center my-5">
-<div class="row align-items-center my-5">
-<div class="row align-items-center my-5">
+<div class="mt-4"> </div>
+<div class="mt-4"> </div>
 
   <!-- Left side -->
   <div class="col-lg-7 col-md-7 mb-4 mb-md-0">
