@@ -36,24 +36,38 @@ social: true # includes social icons at the bottom of the page
 
 <div class="row align-items-center my-4">
 
-  <!-- Left side: Life Interests -->
-  <div class="col-lg-7 col-md-7 mb-4 mb-md-0" markdown="1">
+  <!-- Left side -->
+  <div class="col-lg-7 col-md-7 mb-4 mb-md-0">
+    <h3>Life Interests:</h3>
 
-### Life Interests:
+    <ul>
+      <li class="mb-3">
+        🎤 <strong>Presentation:</strong>
+        I love sharing ideas and making complex topics easier to understand.
+        Whether I’m in a classroom or online, creating engaging presentations
+        is something I really enjoy.
+      </li>
 
-- 🎤 **Presentation**: I love sharing ideas and making complex topics easier to understand. Whether I'm in a classroom or online, creating engaging presentations is something I really enjoy.
+      <li class="mb-3">
+        😍 <strong>Teaching:</strong>
+        Teaching is a big part of my life, and it’s honestly one of the most
+        rewarding experiences.
+      </li>
 
-- 😍 **Teaching**: Teaching is a big part of my life, and it’s honestly one of the most rewarding experiences.
-
-- 💡 **Solving Problems**: I get excited by the challenge of tackling tricky problems, whether it's in research or real-world applications. It’s all about finding that "lightbulb" moment!
-
+      <li class="mb-3">
+        💡 <strong>Solving Problems:</strong>
+        I get excited by the challenge of tackling tricky problems, whether
+        it’s in research or real-world applications. It’s all about finding
+        that “lightbulb” moment!
+      </li>
+    </ul>
   </div>
 
-  <!-- Right side: Image -->
+  <!-- Right side -->
   <div class="col-lg-5 col-md-5 text-center">
     <img
       src="{{ '/assets/img/teaching-collage.webp' | relative_url }}"
-      alt="Collage of online teaching sessions with more than 150 students and 1,000 sessions delivered"
+      alt="Collage of online teaching sessions"
       class="img-fluid rounded z-depth-1"
       loading="lazy"
       style="width: 100%; height: auto;"
