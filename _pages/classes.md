@@ -21,7 +21,7 @@ description: 🎓 Welcome to my class hub
   </p>
 </div>
 
-<div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="row row-cols-1 row-cols-md-2 gy-4">
 
   <!-- Python Fundamentals -->
   <div class="col">
