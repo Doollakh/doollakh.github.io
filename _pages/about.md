@@ -41,7 +41,7 @@ social: true # includes social icons at the bottom of the page
     alt="Collage of online teaching sessions with more than 150 students and 1,000 sessions delivered"
     class="img-fluid rounded z-depth-1"
     loading="lazy"
-    style="width: 100%; height: auto;"
+    style="width: 20%; height: auto;"
   >
 </div>
 
