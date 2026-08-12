@@ -7,13 +7,17 @@ nav: false
 flat: true
 pdf_dir: /assets/pdf/classes/deep-learning
 img_dir: /assets/img/classes/deep-learning
+collage:
+  src: /assets/img/teaching-collage.webp
+  heading: Taught live
+  caption: These decks were built for real sessions, not for reading cold. The room above is every course
+    together — Python, machine learning and this one.
+  alt: Grid of video-call screenshots from live teaching sessions, showing dozens of students.
+  link: /classes/
+  link_text: See all four courses
 # ---------------------------------------------------------------------------
 # FLAT ARRANGEMENT, ADVANCED TOPICS AT THE END.
 #
-# One continuous grid of lectures, then Advanced Topics as a separate closing
-# section below a divider.
-#
-# The rules the template follows:
 #   no `name:`        -> bare cards, no heading
 #   `name:`           -> heading (and a rail node, if the section is on the rail)
 #   `detached: true`  -> comes off the rail, fenced off with a rule above it
@@ -70,9 +74,10 @@ parts:
       NMS, and the mAP metric.
     tags:
     - R-CNN
+    - Fast R-CNN
+    - Faster R-CNN
     - YOLO
     - NMS
-    - mAP
   - num: 6
     slug: 06-sequence-modeling
     title: Sequence Modeling
@@ -81,8 +86,7 @@ parts:
     tags:
     - RNN
     - LSTM
-    - Seq2Seq
-    - Attention
+    - GRU
   - num: 7
     slug: 07-transformer-and-llm
     title: Transformer & LLM
@@ -98,8 +102,8 @@ parts:
     summary: 'Parameter-efficient fine-tuning: adapters, prefix and prompt tuning, and the low-rank family
       of LoRA and QLoRA.'
     tags:
+    - prefix tuning
     - LoRA
-    - QLoRA
     - Adapters
   - num: 9
     slug: 09-post-training
@@ -107,10 +111,9 @@ parts:
     summary: Supervised instruction tuning, reward modelling and RLHF, and direct preference optimisation
       as a simpler alternative.
     tags:
-    - SFT
+    - Calibration
     - RLHF
     - DPO
-    - Alignment
   - num: 10
     slug: 10-reasoning
     title: Reasoning
@@ -125,7 +128,7 @@ parts:
     summary: Why language and vision-language models assert things that aren't grounded, how it gets measured,
       and what actually reduces it.
     tags:
-    - Grounding
+    - Knowledge neuron
     - Retrieval
     - Evaluation
   - num: 12
@@ -226,6 +229,7 @@ parts:
 {%- for lec in lectures -%}{%- unless lec.soon -%}{%- assign ready = ready | plus: 1 -%}{%- endunless -%}{%- endfor -%}
 {%- assign named_parts = 0 -%}
 {%- for part in page.parts -%}{%- if part.name -%}{%- assign named_parts = named_parts | plus: 1 -%}{%- endif -%}{%- endfor -%}
+
 
 <style>
 /* ===== Deep Learning course page ==========================================
@@ -418,6 +422,27 @@ parts:
   padding: 1.5rem 0 0.5rem; border-top: 1px solid var(--global-divider-color);
 }
 
+/* Closing band. The image carries baked-in text that gets small on a phone and
+   is invisible to a screen reader, so the caption below restates the point in
+   real text rather than leaving the picture to say it alone. */
+.dl-collage { margin-top: 3rem; padding-top: 2.25rem; border-top: 1px solid var(--global-divider-color); }
+.dl-collage-head {
+  font-family: var(--dl-mono); font-size: 0.7rem; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--global-theme-color); margin: 0 0 0.85rem;
+}
+.dl-collage img {
+  display: block; width: 100%; height: auto;
+  border-radius: 10px; border: 1px solid var(--global-divider-color);
+}
+.dl-collage-cap {
+  font-size: 0.88rem; line-height: 1.6; color: var(--global-text-color-light);
+  margin: 0.85rem 0 0; max-width: 68ch;
+}
+/* The collage has a white background, which reads as a glaring slab against the
+   dark theme. A light dim settles it without washing out anyone's face. */
+html[data-theme="dark"] .dl-collage img { filter: brightness(0.86); }
+
 .dl-foot {
   margin-top: 2.5rem; padding-top: 1.25rem;
   border-top: 1px solid var(--global-divider-color);
@@ -503,6 +528,18 @@ parts:
 
 <p class="dl-noresults" id="dl-noresults" hidden>No lecture matches that. <button type="button" id="dl-clear" style="background:none;border:0;padding:0;color:var(--global-theme-color);cursor:pointer;font:inherit;text-decoration:underline;">Clear the filter</button></p>
 
+{%- if page.collage %}
+<section class="dl-collage">
+{%- if page.collage.heading %}
+<h2 class="dl-collage-head">{{ page.collage.heading }}</h2>
+{%- endif %}
+<img src="{{ page.collage.src | relative_url }}" alt="{{ page.collage.alt }}" loading="lazy" decoding="async">
+{%- if page.collage.caption %}
+<p class="dl-collage-cap">{{ page.collage.caption }}{% if page.collage.link %} <a href="{{ page.collage.link | relative_url }}">{{ page.collage.link_text | default: 'More' }}</a>.{% endif %}</p>
+{%- endif %}
+</section>
+{%- endif %}
+
 <p class="dl-foot">Slides are shared for the students of this course and anyone else who finds them useful. If you spot a mistake or would like the source files, {% if site.email %}please <a href="mailto:{{ site.email }}">get in touch</a>{% else %}please get in touch{% endif %}.</p>
 
 </div>
@@ -537,3 +574,4 @@ parts:
   if (clear) clear.addEventListener('click', function () { input.value = ''; apply(); input.focus(); });
 })();
 </script>
+
