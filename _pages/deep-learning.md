@@ -471,7 +471,7 @@ html[data-theme="dark"] .dl-collage img { filter: brightness(0.86); }
 
 <div class="dl{% if page.flat %} dl--flat{% endif %}">
 
-<p class="dl-lede">{{ total }} lectures that start from a single artificial neuron and end at the systems behind today's language, vision and generative models. Each card links straight to that lecture's slide deck as a PDF, and the picture on it is the deck's own title slide.</p>
+<p class="dl-lede">{{ total }} lectures that start from a single artificial neuron and end at the systems behind today's language, vision and generative models.</p>
 
 <p class="dl-meta"><b>{{ total }}</b> lectures &nbsp;·&nbsp; {% if named_parts > 1 %}<b>{{ named_parts }}</b> parts &nbsp;·&nbsp; {% endif %}<b>{{ ready }}</b> decks online</p>
 
